@@ -92,7 +92,7 @@ can install another version from https://pytorch.org/get-started/locally/
 
 ```powershell
 python -m pip uninstall torch
-python -m pip install pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
 
 #### accrlerate
