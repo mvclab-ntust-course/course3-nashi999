@@ -61,7 +61,6 @@ put 10~15 images which you want to generate with
 and write a metadata.jsonl
 
 ```json
-// /data/metadata.jsonl
 {"file_name": "0001.png", "text": "image content"}
 {"file_name": "0002.png", "text": "image content"}
 ...
@@ -69,7 +68,7 @@ and write a metadata.jsonl
 
 ### Run training program
 
-you can find various script on the internet or use
+you can find various argument on the internet or use
 
 ```powershell
 python train_text_to_image_lora.py -h
