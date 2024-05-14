@@ -126,7 +126,7 @@ you might need to go into the file anaconda3\envs\ `<env_name>`\Lib\site-package
 ...
 class JITFunction(KernelInterface):
 ...
-def __init__(self, fn, version=None, do_not_specialize=None, debug=False):
+  def __init__(self, fn, version=None, do_not_specialize=None, debug=False):
                                                              ^^^^^^^^^^^
 
 ```
